@@ -1,6 +1,4 @@
 import './App.css';
-import PostForm from './components/HTTPSample/PostForm';
-import PostList from './components/HTTPSample/PostList';
 
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
@@ -26,7 +24,18 @@ import PostList from './components/HTTPSample/PostList';
 // import ComponentC from './components/ContextSample/ComponentC';
 // import { UserProvider } from './components/ContextSample/userContext';
 
-// 
+// import PostForm from './components/HTTPSample/PostForm';
+// import PostList from './components/HTTPSample/PostList';
+
+// import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+// import Home from './components/RouterSample/Home';
+// import About from './components/RouterSample/About';
+// import Contact from './components/RouterSample/Contact';
+// import PostList from './components/HTTPSample/PostList';
+// import PostDetails from './components/RouterSample/PostDetails';
+// import NotFound from './components/RouterSample/NotFound';
+
+
 
 function App() {
   return (
@@ -104,8 +113,51 @@ function App() {
 
       {/* <PostList /> */}
 
-      <PostForm />
+      {/* <PostForm /> */}
 
+      {/* <Router>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" >Home</Link>
+          </li>
+          <li>
+            <Link to="/about" >About</Link>
+          </li>
+          <li>
+            <Link to="/contact" >Contact</Link>
+          </li>
+          <li>
+            <Link to="/posts" >Posts</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="content">
+        <Switch>
+          <Route exact path="/" >
+            <Home />
+          </Route>
+          <Route path="/about" >
+            <About />
+          </Route>
+          <Route path="/contact" >
+            <Contact />
+          </Route>
+          <Route exact path="/posts">
+            <PostList />
+          </Route>
+          <Route exact path="/posts/:id">
+            <PostDetails />
+          </Route>
+          <Route path="*" >
+            <NotFound />
+          </Route>
+        </Switch>
+      </div>
+      </Router> */}
+
+      
     </div>
   );
 }

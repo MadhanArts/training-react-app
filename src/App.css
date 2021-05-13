@@ -13,6 +13,41 @@
   }
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: lightblue;
+  transition: all 0.5s ease-out;
+}
+
+nav {
+  box-shadow: 0 5px 10px grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.post {
+  width: 75%;
+  margin: 10px 20px;
+  text-align: left;
+  padding: 10px 20px;
+  border: 1px solid grey;
+}
+
+.post:hover {
+  box-shadow: 0 0 10px red;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
