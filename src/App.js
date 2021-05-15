@@ -35,7 +35,20 @@ import './App.css';
 // import PostDetails from './components/RouterSample/PostDetails';
 // import NotFound from './components/RouterSample/NotFound';
 
+// FunctionalComponent
+// import HookCounter from './components/FunctionalComponents/UseStateExample/HookCounter';
+// import HookCounter2 from './components/FunctionalComponents/UseStateExample/HookCounter2';
+// import HookObject from './components/FunctionalComponents/UseStateExample/HookObject';
+// import HookArray from './components/FunctionalComponents/UseStateExample/HookArray';
 
+// import ClassMouse from './components/FunctionalComponents/UseEffectExample/ClassMouse';
+// import EffectHookCounter from './components/FunctionalComponents/UseEffectExample/EffectHookCounter';
+// import HookMouse from './components/FunctionalComponents/UseEffectExample/HookMouse';
+// import MouseContainer from './components/FunctionalComponents/UseEffectExample/MouseContainer';
+// import UseEffectClassComp from './components/FunctionalComponents/UseEffectExample/UseEffectClassComp';
+// import IntervalClassCounter from './components/FunctionalComponents/UseEffectExample/IntervalClassCounter';
+// import IntervalHookCounter from './components/FunctionalComponents/UseEffectExample/IntervalHookCounter';
+// import DataFetching from './components/FunctionalComponents/UseEffectExample/DataFetching';
 
 function App() {
   return (
@@ -157,7 +170,29 @@ function App() {
       </div>
       </Router> */}
 
+      {/* <HookCounter /> */}
+
+      {/* <HookCounter2 /> */}
+
+      {/* <HookObject /> */}
+
+      {/* <HookArray /> */}
+
+      {/* <EffectHookCounter /> */}
+
+      {/* <UseEffectClassComp /> */}
       
+      {/* <ClassMouse /> */}
+
+      {/* <HookMouse /> */}
+
+      {/* <MouseContainer /> */}
+
+      {/* <IntervalClassCounter />
+      <IntervalHookCounter /> */}
+
+      {/* <DataFetching /> */}
+
     </div>
   );
 }
