@@ -50,6 +50,9 @@ import './App.css';
 // import IntervalHookCounter from './components/FunctionalComponents/UseEffectExample/IntervalHookCounter';
 // import DataFetching from './components/FunctionalComponents/UseEffectExample/DataFetching';
 
+import ParentContext from './components/FunctionalComponents/UseContextExample/ParentContext';
+
+
 function App() {
   return (
     <div className="App"> 
@@ -192,6 +195,8 @@ function App() {
       <IntervalHookCounter /> */}
 
       {/* <DataFetching /> */}
+
+      <ParentContext />
 
     </div>
   );
