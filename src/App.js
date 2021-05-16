@@ -50,7 +50,13 @@ import './App.css';
 // import IntervalHookCounter from './components/FunctionalComponents/UseEffectExample/IntervalHookCounter';
 // import DataFetching from './components/FunctionalComponents/UseEffectExample/DataFetching';
 
-import ParentContext from './components/FunctionalComponents/UseContextExample/ParentContext';
+// import ParentContext from './components/FunctionalComponents/UseContextExample/ParentContext';
+// import CounterOne from './components/FunctionalComponents/UseReducerExample/CounterOne';
+// import CounterThree from './components/FunctionalComponents/UseReducerExample/CounterThree';
+// import CounterTwo from './components/FunctionalComponents/UseReducerExample/CounterTwo';
+// import DataFetchingOne from './components/FunctionalComponents/UseReducerExample/DataFetchingOne';
+// import DataFetchingTwo from './components/FunctionalComponents/UseReducerExample/DataFetchingTwo';
+// import ParentComponent from './components/FunctionalComponents/UseReducerExample/ParentComponent';
 
 
 function App() {
@@ -196,7 +202,19 @@ function App() {
 
       {/* <DataFetching /> */}
 
-      <ParentContext />
+      {/* <ParentContext /> */}
+
+      {/* <CounterOne /> */}
+
+      {/* <CounterTwo /> */}
+
+      {/* <CounterThree /> */}
+
+      {/* <ParentComponent /> */}
+
+      {/* <DataFetchingOne /> */}
+
+      {/* <DataFetchingTwo /> */}
 
     </div>
   );
