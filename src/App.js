@@ -1,4 +1,5 @@
 import './App.css';
+import ParentComponent from './components/FunctionalComponents/UseCallbackExample/ParentComponent';
 
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
@@ -215,6 +216,8 @@ function App() {
       {/* <DataFetchingOne /> */}
 
       {/* <DataFetchingTwo /> */}
+
+      <ParentComponent />
 
     </div>
   );
