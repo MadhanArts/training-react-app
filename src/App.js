@@ -1,5 +1,6 @@
 import './App.css';
 import ParentComponent from './components/FunctionalComponents/UseCallbackExample/ParentComponent';
+import Counter from './components/FunctionalComponents/UseMemoExample/Counter';
 
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
@@ -217,7 +218,9 @@ function App() {
 
       {/* <DataFetchingTwo /> */}
 
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+
+      <Counter />
 
     </div>
   );
