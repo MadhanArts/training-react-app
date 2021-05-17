@@ -6,7 +6,7 @@ function HookTimer() {
     
     // useRef returns a generic container which can store 
     // mutable value similar to instance properties in class component.
-
+    // It is like class variable.
     const intervalRef = useRef(null)
 
     useEffect(() => {
