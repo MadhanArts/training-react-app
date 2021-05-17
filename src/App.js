@@ -1,7 +1,5 @@
 import './App.css';
-import ClassTimer from './components/FunctionalComponents/UseRefExample/ClassTimer';
-import FocusInput from './components/FunctionalComponents/UseRefExample/FocusInput';
-import HookTimer from './components/FunctionalComponents/UseRefExample/HookTimer';
+
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
 
@@ -63,6 +61,15 @@ import HookTimer from './components/FunctionalComponents/UseRefExample/HookTimer
 // import ParentComponent from './components/FunctionalComponents/UseCallbackExample/ParentComponent';
 
 // import Counter from './components/FunctionalComponents/UseMemoExample/Counter';
+
+// import CounterOne from './components/FunctionalComponents/CustomHookExample/CounterOne';
+// import CounterTwo from './components/FunctionalComponents/CustomHookExample/CounterTwo';
+// import DocTitleOne from './components/FunctionalComponents/CustomHookExample/DocTitleOne';
+// import DocTitleTwo from './components/FunctionalComponents/CustomHookExample/DocTitleTwo';
+// import UserForm from './components/FunctionalComponents/CustomHookExample/UserForm';
+// import ClassTimer from './components/FunctionalComponents/UseRefExample/ClassTimer';
+// import FocusInput from './components/FunctionalComponents/UseRefExample/FocusInput';
+// import HookTimer from './components/FunctionalComponents/UseRefExample/HookTimer';
 
 
 function App() {
@@ -228,8 +235,16 @@ function App() {
 
       {/* <FocusInput /> */}
 
-      <ClassTimer />
-      <HookTimer />
+      {/* <ClassTimer />
+      <HookTimer /> */}
+
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+
+      {/* <CounterOne />
+      <CounterTwo /> */}
+
+      {/* <UserForm /> */}
 
     </div>
   );
