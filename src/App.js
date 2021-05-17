@@ -1,7 +1,7 @@
 import './App.css';
-import ParentComponent from './components/FunctionalComponents/UseCallbackExample/ParentComponent';
-import Counter from './components/FunctionalComponents/UseMemoExample/Counter';
-
+import ClassTimer from './components/FunctionalComponents/UseRefExample/ClassTimer';
+import FocusInput from './components/FunctionalComponents/UseRefExample/FocusInput';
+import HookTimer from './components/FunctionalComponents/UseRefExample/HookTimer';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
 
@@ -59,6 +59,10 @@ import Counter from './components/FunctionalComponents/UseMemoExample/Counter';
 // import DataFetchingOne from './components/FunctionalComponents/UseReducerExample/DataFetchingOne';
 // import DataFetchingTwo from './components/FunctionalComponents/UseReducerExample/DataFetchingTwo';
 // import ParentComponent from './components/FunctionalComponents/UseReducerExample/ParentComponent';
+
+// import ParentComponent from './components/FunctionalComponents/UseCallbackExample/ParentComponent';
+
+// import Counter from './components/FunctionalComponents/UseMemoExample/Counter';
 
 
 function App() {
@@ -220,7 +224,12 @@ function App() {
 
       {/* <ParentComponent /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      {/* <FocusInput /> */}
+
+      <ClassTimer />
+      <HookTimer />
 
     </div>
   );
