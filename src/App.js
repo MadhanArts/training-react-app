@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 
 // import ErrorBoundary from './components/ErrorBoundary';
 // import Hero from './components/Hero';
@@ -71,22 +71,22 @@ import './App.css';
 // import FocusInput from './components/FunctionalComponents/UseRefExample/FocusInput';
 // import HookTimer from './components/FunctionalComponents/UseRefExample/HookTimer';
 
+import CRUDForm from "./components/FunctionalComponents/CRUDForm";
 
 function App() {
-  return (
-    <div className="App"> 
+    return (
+        <div className='App'>
+            {/* <Form /> */}
 
-      {/* <Form /> */}
+            {/* <PortalDemo /> */}
 
-      {/* <PortalDemo /> */}
+            {/* <ParentComp /> */}
 
-      {/* <ParentComp /> */}
+            {/* <ForwardRefParentInput /> */}
 
-      {/* <ForwardRefParentInput /> */}
+            {/* <FocusInput /> */}
 
-      {/* <FocusInput /> */}
-
-      {/* <ErrorBoundary>
+            {/* <ErrorBoundary>
         <Hero heroName="BatMan" />
       </ErrorBoundary>
       
@@ -98,15 +98,15 @@ function App() {
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
 
-      {/* <ClickCounter name="Madhan" />
+            {/* <ClickCounter name="Madhan" />
       <HoverCounter /> */}
 
-      {/* <ClickCounterTwo />
+            {/* <ClickCounterTwo />
       <HoverCounterTwo />
       <User render={(isLoggedIn) => isLoggedIn? "Madhan": "Guest"} /> 
       */}
 
-      {/* <Counter 
+            {/* <Counter 
         render={(count, incrementCount) => (
         <ClickCounterTwo 
         count={count} 
@@ -124,7 +124,7 @@ function App() {
         )}
       /> */}
 
-      {/* <Counter>
+            {/* <Counter>
         {(count, incrementCount) => (
         <ClickCounterTwo 
         count={count} 
@@ -142,15 +142,15 @@ function App() {
         )}
       </Counter> */}
 
-      {/* <UserProvider value="Madhan" >
+            {/* <UserProvider value="Madhan" >
         <ComponentC />
       </UserProvider> */}
 
-      {/* <PostList /> */}
+            {/* <PostList /> */}
 
-      {/* <PostForm /> */}
+            {/* <PostForm /> */}
 
-      {/* <Router>
+            {/* <Router>
       <nav>
         <ul>
           <li>
@@ -192,62 +192,63 @@ function App() {
       </div>
       </Router> */}
 
-      {/* <HookCounter /> */}
+            {/* <HookCounter /> */}
 
-      {/* <HookCounter2 /> */}
+            {/* <HookCounter2 /> */}
 
-      {/* <HookObject /> */}
+            {/* <HookObject /> */}
 
-      {/* <HookArray /> */}
+            {/* <HookArray /> */}
 
-      {/* <EffectHookCounter /> */}
+            {/* <EffectHookCounter /> */}
 
-      {/* <UseEffectClassComp /> */}
-      
-      {/* <ClassMouse /> */}
+            {/* <UseEffectClassComp /> */}
 
-      {/* <HookMouse /> */}
+            {/* <ClassMouse /> */}
 
-      {/* <MouseContainer /> */}
+            {/* <HookMouse /> */}
 
-      {/* <IntervalClassCounter />
+            {/* <MouseContainer /> */}
+
+            {/* <IntervalClassCounter />
       <IntervalHookCounter /> */}
 
-      {/* <DataFetching /> */}
+            {/* <DataFetching /> */}
 
-      {/* <ParentContext /> */}
+            {/* <ParentContext /> */}
 
-      {/* <CounterOne /> */}
+            {/* <CounterOne /> */}
 
-      {/* <CounterTwo /> */}
+            {/* <CounterTwo /> */}
 
-      {/* <CounterThree /> */}
+            {/* <CounterThree /> */}
 
-      {/* <ParentComponent /> */}
+            {/* <ParentComponent /> */}
 
-      {/* <DataFetchingOne /> */}
+            {/* <DataFetchingOne /> */}
 
-      {/* <DataFetchingTwo /> */}
+            {/* <DataFetchingTwo /> */}
 
-      {/* <ParentComponent /> */}
+            {/* <ParentComponent /> */}
 
-      {/* <Counter /> */}
+            {/* <Counter /> */}
 
-      {/* <FocusInput /> */}
+            {/* <FocusInput /> */}
 
-      {/* <ClassTimer />
+            {/* <ClassTimer />
       <HookTimer /> */}
 
-      {/* <DocTitleOne />
+            {/* <DocTitleOne />
       <DocTitleTwo /> */}
 
-      {/* <CounterOne />
+            {/* <CounterOne />
       <CounterTwo /> */}
 
-      {/* <UserForm /> */}
+            {/* <UserForm /> */}
 
-    </div>
-  );
+            <CRUDForm />
+        </div>
+    );
 }
 
 export default App;
